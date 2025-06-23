@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Main" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.quizzapp.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Tilte" text="QUAN LY CAU HOI" />
+      <TextArea prefHeight="91.0" prefWidth="580.0" promptText="Noi dung cau hoi" stylesheets="@Styles.css" />
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="Main" stylesheets="@Styles.css">
+         <children>
+            <ComboBox prefWidth="150.0" promptText="danh muc" styleClass="list" />
+            <ComboBox layoutX="10.0" layoutY="10.0" prefWidth="150.0" promptText="muc do" styleClass="list" />
+         </children>
+      </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@Styles.css">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" styleClass="Main" stylesheets="@Styles.css">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextField styleClass="input" stylesheets="@Styles.css" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" styleClass="Main" stylesheets="@Styles.css">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextField styleClass="input" stylesheets="@Styles.css" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" styleClass="Button" text="Button" />
+   </children>
+</VBox>
